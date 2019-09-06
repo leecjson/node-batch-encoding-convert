@@ -1,0 +1,26 @@
+{
+  "name": "batch-encoding-convert",
+  "version": "1.0.0",
+  "description": "batch encoding convert",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leecjson/node-batch-encoding-convert.git"
+  },
+  "author": "leecjson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leecjson/node-batch-encoding-convert/issues"
+  },
+  "homepage": "https://github.com/leecjson/node-batch-encoding-convert#readme",
+  "dependencies": {
+    "encoding": "^0.1.12",
+    "fs-extra": "^8.1.0",
+    "jschardet": "^2.1.0",
+    "strip-bom": "^4.0.0",
+    "strip-bom-buf": "^2.0.0"
+  }
+}

@@ -1,2 +1,2 @@
-# node-batch-encoding-converter
-batch encoding converter
+# node-batch-encoding-convert
+batch encoding convert
