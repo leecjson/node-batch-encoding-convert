@@ -1,10 +1,10 @@
 'use strict';
 
+const fs = require('fs-extra');
 const pathModule = require('path');
+const stripBomBuffer = require('strip-bom-buf');
 const encoding = require('encoding');
 const jschardet = require('jschardet');
-const fs = require('fs-extra');
-const stripBomBuffer = require('strip-bom-buf');
 
 function selectFiles(rootDir, subfixs) {
   const targets = [];
